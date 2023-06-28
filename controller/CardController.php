@@ -50,6 +50,13 @@ class CardController{
             $data['Person-'.$x] = [];
             $y = 1;
 
+            if(empty($this->fullDeck)){
+                $data['Person-'.$x] = [
+                    'No Cards'
+                ];
+                break;
+            }
+
             foreach($this->fullDeck as $k => $fd){
                 if($y <= $eachPerson){
                     //Once set, remove card for the full deck
