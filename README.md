@@ -19,6 +19,7 @@ My suggestion would be as below
 - Select ONLY the column that are needed when querying to minimize full column scans
 - Index all columns that may be used in WHERE, ORDER BY, GROUP BY
 
-Q1 Time Spent: 1 HR
-Q2 Time Spent: 30 Min
+--------------------------------
+- Q1 Time Spent: 1 HR
+- Q2 Time Spent: 30 Min
    
