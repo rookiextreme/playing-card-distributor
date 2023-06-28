@@ -8,7 +8,6 @@ Start by cloning the project
 4. Head over to 'http://localhost:8001'
 5. Change the port in docker-compose.yml to use a different port
 
-Time Spent: 1 HR
 -----------------------
 
 Question 2
@@ -20,5 +19,6 @@ My suggestion would be as below
 - Select ONLY the column that are needed when querying to minimize full column scans
 - Index all columns that may be used in WHERE, ORDER BY, GROUP BY
 
-Time Spent: 30 Min
+Q1 Time Spent: 1 HR
+Q2 Time Spent: 30 Min
    
