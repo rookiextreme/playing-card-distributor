@@ -54,7 +54,7 @@ class CardController{
                 $data['Person-'.$x] = [
                     'No Cards'
                 ];
-                break;
+
             }
 
             foreach($this->fullDeck as $k => $fd){
